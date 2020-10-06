@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestStruttura" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-30T23:12:17" hostname="LAPTOP-GJMEOKS8" time="0.017">
+  <properties/>
+  <testcase name="TestgetCategoriaByCodice()" classname="TestStruttura" time="0.008"/>
+  <testcase name="TestRitornaPadre()" classname="TestStruttura" time="0.0"/>
+  <testcase name="TestCreaLivello()" classname="TestStruttura" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

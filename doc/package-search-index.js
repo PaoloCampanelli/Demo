@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"it.unicam.cs.pa.jbudget105788.application"},{"l":"it.unicam.cs.pa.jbudget105788.project"},{"l":"it.unicam.cs.pa.jbudget105788.view"}]

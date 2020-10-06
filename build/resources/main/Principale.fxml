@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unicam.cs.pa.jbudget105788.view.PrincipaleController">
+   <children>
+      <Label layoutX="118.0" layoutY="30.0" prefHeight="66.0" prefWidth="306.0" text="BENTORNATO" textFill="#ee0404">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+    <Button layoutX="89.0" layoutY="148.0" mnemonicParsing="false" onAction="#handleContoCorrente" text="Conto Corrente">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER_RIGHT" layoutX="335.0" layoutY="148.0" mnemonicParsing="false" onAction="#handleStruttura" text="Categorie">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button alignment="BOTTOM_RIGHT" layoutX="335.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleScadenzario" text="Scadenze">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="109.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleBudget" text="Previsioni">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

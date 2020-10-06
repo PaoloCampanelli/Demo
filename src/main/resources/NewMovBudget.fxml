@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="250.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unicam.cs.pa.jbudget105788.view.NewMovBudgetController">
+   <children>
+      <GridPane layoutX="15.0" layoutY="29.0" prefHeight="174.0" prefWidth="405.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="227.0" minWidth="10.0" prefWidth="63.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="296.0" minWidth="0.0" prefWidth="296.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Importo" />
+            <Label text="Data" GridPane.rowIndex="1" />
+            <TextField fx:id="importoField" GridPane.columnIndex="1" />
+            <Label text="Causale" GridPane.rowIndex="2" />
+            <Label text="Tags" GridPane.rowIndex="4" />
+            <TextField fx:id="causaleField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="categoriaField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <DatePicker fx:id="dataField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="Categoria" GridPane.rowIndex="3" />
+            <TextField fx:id="tagsField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <ButtonBar layoutX="286.0" layoutY="203.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#handleCancel" text="Indietro" />
+          <Button mnemonicParsing="false" onAction="#handleOk" text="OK" />
+        </buttons>
+      </ButtonBar>
+      <Button layoutX="427.0" layoutY="139.0" mnemonicParsing="false" onAction="#handleCategoria" text="Visualizza" />
+   </children>
+</AnchorPane>

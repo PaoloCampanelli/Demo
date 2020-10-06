@@ -1,0 +1,60 @@
+it/unicam/cs/pa/jbudget105788/view/StrutturaController.java
+ it.unicam.cs.pa.jbudget105788.view.StrutturaController
+it/unicam/cs/pa/jbudget105788/project/ClassificazioneMovimentoEnum.java
+ it.unicam.cs.pa.jbudget105788.project.ClassificazioneMovimentoEnum
+it/unicam/cs/pa/jbudget105788/view/NewScadenzaController.java
+ it.unicam.cs.pa.jbudget105788.view.NewScadenzaController
+it/unicam/cs/pa/jbudget105788/project/ICreaLivelloCategoria.java
+ it.unicam.cs.pa.jbudget105788.project.ICreaLivelloCategoria
+it/unicam/cs/pa/jbudget105788/view/PrincipaleController.java
+ it.unicam.cs.pa.jbudget105788.view.PrincipaleController
+it/unicam/cs/pa/jbudget105788/project/Scadenzario.java
+ it.unicam.cs.pa.jbudget105788.project.Scadenzario
+ it.unicam.cs.pa.jbudget105788.project.Scadenzario$1
+it/unicam/cs/pa/jbudget105788/view/ContoCorrenteController.java
+ it.unicam.cs.pa.jbudget105788.view.ContoCorrenteController
+it/unicam/cs/pa/jbudget105788/project/ICreaScadenza.java
+ it.unicam.cs.pa.jbudget105788.project.ICreaScadenza
+it/unicam/cs/pa/jbudget105788/application/MainApp.java
+ it.unicam.cs.pa.jbudget105788.application.MainApp
+it/unicam/cs/pa/jbudget105788/project/ICreaMovimento.java
+ it.unicam.cs.pa.jbudget105788.project.ICreaMovimento
+it/unicam/cs/pa/jbudget105788/project/MovContoCorrente.java
+ it.unicam.cs.pa.jbudget105788.project.MovContoCorrente
+it/unicam/cs/pa/jbudget105788/project/Categoria.java
+ it.unicam.cs.pa.jbudget105788.project.Categoria
+it/unicam/cs/pa/jbudget105788/project/Scadenza.java
+ it.unicam.cs.pa.jbudget105788.project.Scadenza
+it/unicam/cs/pa/jbudget105788/project/IGetStatistiche.java
+ it.unicam.cs.pa.jbudget105788.project.IGetStatistiche
+it/unicam/cs/pa/jbudget105788/project/LivelloEnum.java
+ it.unicam.cs.pa.jbudget105788.project.LivelloEnum
+it/unicam/cs/pa/jbudget105788/view/NewMovCCController.java
+ it.unicam.cs.pa.jbudget105788.view.NewMovCCController
+it/unicam/cs/pa/jbudget105788/project/Budget.java
+ it.unicam.cs.pa.jbudget105788.project.Budget
+ it.unicam.cs.pa.jbudget105788.project.Budget$1
+it/unicam/cs/pa/jbudget105788/project/ContoCorrente.java
+ it.unicam.cs.pa.jbudget105788.project.ContoCorrente
+ it.unicam.cs.pa.jbudget105788.project.ContoCorrente$1
+it/unicam/cs/pa/jbudget105788/view/RicercheBDController.java
+ it.unicam.cs.pa.jbudget105788.view.RicercheBDController
+it/unicam/cs/pa/jbudget105788/view/ScadenzarioController.java
+ it.unicam.cs.pa.jbudget105788.view.ScadenzarioController
+it/unicam/cs/pa/jbudget105788/project/Struttura.java
+ it.unicam.cs.pa.jbudget105788.project.Struttura
+ it.unicam.cs.pa.jbudget105788.project.Struttura$1
+it/unicam/cs/pa/jbudget105788/view/NewCategoriaController.java
+ it.unicam.cs.pa.jbudget105788.view.NewCategoriaController
+it/unicam/cs/pa/jbudget105788/view/NewMovBudgetController.java
+ it.unicam.cs.pa.jbudget105788.view.NewMovBudgetController
+it/unicam/cs/pa/jbudget105788/view/PrimaVoltaController.java
+ it.unicam.cs.pa.jbudget105788.view.PrimaVoltaController
+it/unicam/cs/pa/jbudget105788/project/Servizi.java
+ it.unicam.cs.pa.jbudget105788.project.Servizi
+it/unicam/cs/pa/jbudget105788/view/RicercheCCController.java
+ it.unicam.cs.pa.jbudget105788.view.RicercheCCController
+it/unicam/cs/pa/jbudget105788/view/BudgetController.java
+ it.unicam.cs.pa.jbudget105788.view.BudgetController
+it/unicam/cs/pa/jbudget105788/project/MovBudget.java
+ it.unicam.cs.pa.jbudget105788.project.MovBudget

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestBudget" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-09-30T23:12:16" hostname="LAPTOP-GJMEOKS8" time="0.062">
+  <properties/>
+  <testcase name="TestCreaUscita()" classname="TestBudget" time="0.043"/>
+  <testcase name="TestGetSaldoAttuale()" classname="TestBudget" time="0.006"/>
+  <testcase name="TestCreaEntrata()" classname="TestBudget" time="0.001"/>
+  <testcase name="TestGetMovimentoById()" classname="TestBudget" time="0.001"/>
+  <testcase name="TestGetSaldoByDate()" classname="TestBudget" time="0.001"/>
+  <testcase name="TestGetMovimentiByDatesAndCategory()" classname="TestBudget" time="0.001"/>
+  <testcase name="TestGetMovimentiByDates()" classname="TestBudget" time="0.001"/>
+  <testcase name="TestGetMovimentiByDatesAndTag()" classname="TestBudget" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unicam.cs.pa.jbudget105788.view.PrimaVoltaController">
+   <children>
+      <Label layoutX="113.0" layoutY="14.0" prefHeight="66.0" prefWidth="275.0" text="BENVENUTO" textAlignment="CENTER" textFill="#ee0404">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="18.0" layoutY="84.0" prefHeight="178.0" prefWidth="466.0" text="Questa è l'interfaccia grafica del progetto di Programmazione Avanzata per il corso tenuto dal professore Loreti nell'AA 2019/2020. Per realizzarla ho utilizzato JavaFX e Scene Builder.  Il progetto in questione è la possibilità di gestire il budget familiare. Nel menù principale che ho realizzato ci sono 4 scelte possibili:&#10;&#10;Conto Corrente : Permette di effettuare operazioni REALI e di vedere il proprio&#10; patrimonio con diversi filtri. Per aggiungere una transazione è obbligatorio inserire almeno un importo, una data e un codice di una categoria.&#10;&#10;Categorie : Permette di vedere ed aggiungere le categorie. Per aggiungerle bisogna inserire un codice univoco di 3, 6 o 9 caratteri e una descrizione. Non si possono inserire categorie con 6 o 9 caratteri senza una categoria &quot;padre&quot; che li ospita ad esempio non si può creare la categoria con codice 123456 senza crearne una con codice 123.&#10;&#10;Scadenzario : Permette di aggiungere scadenze, di vederele e di filtrarle per pagate o no. La categoria di una scadenza sarà la stessa del primo movimento reale effettuato nel conto corrente associato. Per aggiungere una scadenza è obbligatorio inserire una data futura e un importo valido.&#10;&#10;Previsioni :  Permette di effettuare operazioni IPOTETICHE e di vedere il proprio ipotetico patrimonio con diversi filtri. Per aggiungere una transazione è obbligatorio inserire almeno un importo, una data e un codice di una categoria.&#10;&#10;SENZA UNA CATEGORIA NON E' POSSIBILE AGGIUNGEREMOVIMENTI  O PREVISIONI&#10;&#10;PER AGGIUNGERE PIU' TAG SEPARARLI CON LA VIRGOLA&#10;ESEMPIO :  Tag1,Tag2,Tag3&#10;&#10;Per iniziare la preghiamo di inserire il percorso file in cui intende memorizzare i File di sistema &#10;&#10;ESEMPIO :  c:/temp/Finale&#10;&#10;&#10;&#10;" wrapText="true" />
+      <Button layoutX="289.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleButton" text="Inserire percorso dove salvare i file" />
+      <TextField fx:id="pathField" layoutX="129.0" layoutY="262.0" text="c:/temp" />
+   </children>
+</AnchorPane>
